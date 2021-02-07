@@ -10,7 +10,11 @@ public class HostController {
 
     @RequestMapping(path = "/host", method = RequestMethod.GET)
     String home() {
-
         return "47.103.199.109:8812";
+    }
+
+    @RequestMapping(path = "/host/aa", method = RequestMethod.GET)
+    String home_aa() {
+        return "47.103.199.109:8812-aa";
     }
 }
