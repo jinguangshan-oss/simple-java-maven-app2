@@ -11,6 +11,6 @@ public class HostController {
     @RequestMapping(path = "/host", method = RequestMethod.GET)
     String home() {
 
-        return "http://47.103.199.109:8812/";
+        return "47.103.199.109:8812";
     }
 }
